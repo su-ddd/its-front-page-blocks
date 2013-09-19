@@ -1,12 +1,14 @@
 name = Front Page Blocks
-description = Security and Verified Front Page Boxes
+description = Security, Banner and Verified Front Page Boxes
 core = 7.x
 package = IT Services
 version = 7.x-1.0
 project = front_page_blocks
 dependencies[] = fe_block
+features[fe_block_boxes][] = its_banner_block
 features[fe_block_boxes][] = its_emailcomm
 features[fe_block_boxes][] = its_security
+features[fe_block_settings][] = block-its_banner_block
 features[fe_block_settings][] = block-its_emailcomm
 features[fe_block_settings][] = block-its_security
 features[features_api][] = api:2

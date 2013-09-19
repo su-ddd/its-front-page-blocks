@@ -11,6 +11,22 @@ function front_page_blocks_default_fe_block_boxes() {
   $export = array();
 
   $fe_block_boxes = new stdClass();
+  $fe_block_boxes->info = 'Front Page Banner Block';
+  $fe_block_boxes->format = 'full_html';
+  $fe_block_boxes->machine_name = 'its_banner_block';
+  $fe_block_boxes->body = '<div style="margin: 0; padding: 15px; height: 241px; background: url(https://itservices.stanford.edu/sites/default/files/images/2013/09/09/banner_graphic4.png) top left no-repeat;">
+<div style="width: 320px; margin-top: 2.5em; margin-left: 1.3em;">
+<h2 style="margin-top: 0;">Ready to set up two-step authentication?</h2>
+
+<p style="font-size: 1.3em; line-height: 1.1em;">Get started at<br />
+<a href="http://accounts.stanford.edu">accounts.stanford.edu</a>.</p>
+</div>
+</div>
+';
+
+  $export['its_banner_block'] = $fe_block_boxes;
+
+  $fe_block_boxes = new stdClass();
   $fe_block_boxes->info = 'Front Page: Email Communication';
   $fe_block_boxes->format = 'full_html';
   $fe_block_boxes->machine_name = 'its_emailcomm';
