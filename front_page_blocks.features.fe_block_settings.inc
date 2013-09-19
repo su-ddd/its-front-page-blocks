@@ -50,7 +50,7 @@ function front_page_blocks_default_fe_block_settings() {
         'region' => 'content_top',
         'status' => 1,
         'theme' => 'stanford_itservices',
-        'weight' => -78,
+        'weight' => -76,
       ),
       'stanford_seven' => array(
         'region' => '',
@@ -101,7 +101,7 @@ function front_page_blocks_default_fe_block_settings() {
         'region' => 'sidebar_second',
         'status' => 1,
         'theme' => 'stanford_itservices',
-        'weight' => -76,
+        'weight' => -75,
       ),
       'stanford_seven' => array(
         'region' => '',
@@ -152,7 +152,7 @@ function front_page_blocks_default_fe_block_settings() {
         'region' => 'sidebar_second',
         'status' => 1,
         'theme' => 'stanford_itservices',
-        'weight' => -77,
+        'weight' => -76,
       ),
       'stanford_seven' => array(
         'region' => '',
