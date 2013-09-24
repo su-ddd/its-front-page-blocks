@@ -19,7 +19,7 @@ function front_page_blocks_default_fe_block_boxes() {
 <h2 style="margin-top: 0;">Ready to set up two-step authentication?</h2>
 
 <p style="font-size: 1.3em; line-height: 1.1em;">Get started at<br />
-<a href="http://accounts.stanford.edu">accounts.stanford.edu</a>.</p>
+<a href="https://accounts.stanford.edu/r/tab/mf">accounts.stanford.edu</a>.</p>
 </div>
 </div>
 ';
