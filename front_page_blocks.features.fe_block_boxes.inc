@@ -45,7 +45,7 @@ function front_page_blocks_default_fe_block_boxes() {
   $fe_block_boxes->info = 'Front Page: Security';
   $fe_block_boxes->format = 'full_html';
   $fe_block_boxes->machine_name = 'its_security';
-  $fe_block_boxes->body = '<i class="icon-lock"></i><h2>Security Resources</h2><ul><li><a href="http://ucomm.stanford.edu/computersecurity">Update on Stanford IT breach</a></li><li><a href="https://helpsu.stanford.edu/helpsu/?pcat=iso">Report security incident</a></li></ul>';
+  $fe_block_boxes->body = '<i class="icon-lock"></i><h2>Security Resources</h2><ul><li><a href="http://ucomm.stanford.edu/computersecurity">Update on Stanford IT breach</a></li><li><a href="https://helpsu.stanford.edu/helpsu/?pcat=iso">Report security incident</a></li><li><a href="https://itservices.stanford.edu/service/emailcalendar/email/phishing">Anatomy of a phishing email</a></li></ul>';
 
   $export['its_security'] = $fe_block_boxes;
 
