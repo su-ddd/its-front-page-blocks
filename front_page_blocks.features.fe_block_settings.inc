@@ -101,7 +101,7 @@ function front_page_blocks_default_fe_block_settings() {
         'region' => 'sidebar_second',
         'status' => 1,
         'theme' => 'stanford_itservices',
-        'weight' => -75,
+        'weight' => -76,
       ),
       'stanford_seven' => array(
         'region' => '',
@@ -121,7 +121,8 @@ function front_page_blocks_default_fe_block_settings() {
     'machine_name' => 'its_security',
     'module' => 'block',
     'node_types' => array(),
-    'pages' => '<front>',
+    'pages' => '<front>
+	security/faq',
     'roles' => array(),
     'themes' => array(
       'itservices_seven' => array(
@@ -152,7 +153,7 @@ function front_page_blocks_default_fe_block_settings() {
         'region' => 'sidebar_second',
         'status' => 1,
         'theme' => 'stanford_itservices',
-        'weight' => -76,
+        'weight' => -77,
       ),
       'stanford_seven' => array(
         'region' => '',
